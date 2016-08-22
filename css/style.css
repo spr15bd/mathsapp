@@ -1,0 +1,183 @@
+
+
+	*               		{ 	margin: 0; padding: 0; } 
+	.navbar-brand 	{ 	font-size:1.8em; }
+	#dividerOne, #dividerTwo, #dividerThree, #dividerFour
+			{ 	
+				background-image:url("../images/background1.jpg");
+				height:100px;
+				width:100%;
+				background-size:cover;
+			}
+	#topRow 		{
+				
+				margin-top:100px;
+				text-align:center;
+			}
+	#topRow h1 	{
+				font-size:300%;
+			}
+
+	.btn		{ 	color: "pink";
+			}
+
+	.form-control	{
+				float: "right";
+			}
+
+	.bold 		{
+				font-weight:bold;
+			}
+	.marginTop 	{
+				margin-top:30px;
+			}
+	.center 		{
+				text-align:center;
+			}
+	.title 		{
+				//margin-top:100px;
+				font-size:200%;
+			}
+	#footer 		{
+				background-color:#B0D1FB;
+				padding-top:70px;
+				width:100%;
+			}
+	.marginBottom 	{
+				
+				background-image:url("../images/background1.jpg");
+				height:50px;
+				width:100%;
+			}
+	.appstoreImage 	{
+				width:250px;
+			}
+
+
+	td, th 		{
+				padding: 0 20px;
+				border-right: 0;
+			}
+	#calculator	{
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom:40px;
+				font: 25px "Arial Black", Arial, Sans-Serif;
+				width: 410px; 
+				height: 400px; 
+				background: url(../images/calc-bg.png) no-repeat; 
+                  			position: relative; 
+				//display: none;
+				
+
+			}
+	#tables	{
+				margin-bottom:61px;
+				
+
+			}
+	#page-wrap              	{
+			 	width: 500px; 
+				margin: 25px auto; 
+			}
+
+	#display-calculation
+		            	{
+			 	background: none; 
+				border: none; 
+				position: absolute;  
+                  			top: 7px; 
+				left: 15px; 
+				height: 29px;
+				width: 380px; 
+				padding:0;
+				text-align: right; 
+                  			font: 20px "Arial Black", Arial, Sans-Serif; 
+				//background-color:#B000FB;
+			} 
+	#display            	{
+			 	background: none; 
+				border: none; 
+				position: absolute;  
+                  			top: 31px; 
+				left: 15px; 
+				height: 40px;
+				width: 380px; 
+				//padding-top:-10;
+				text-align: right; 
+                  			font: 36px "Arial Black", Arial, Sans-Serif; 
+				//background-color:#B0D1FB;
+			} 
+
+	
+                      
+	.num-button         	{
+			 	width: 44px; height: 41px; padding: 3px 0 0 0; text-align: center;  
+                      			background: url(../images/button-bg.png) no-repeat;  border-radius: 10px;
+                  			position: absolute; display: block; } 
+	.clear-button           	{
+			 	width: 44px; height: 41px; padding: 3px 0 0 0; text-align: center;  
+                      			background: url(../images/button-bg.png) no-repeat;  
+                  			position: absolute; border-radius: 10px;
+				display: block; } 
+	.function-button           {
+			 	width: 44px; height: 41px; padding: 3px 0 0 0; text-align: center;  
+                      			background: url(../images/function-button-bg.png) no-repeat;  
+                  			position: absolute; display: block;
+			} 
+	.spec-function-button,
+	.power-button,
+	.sqroot-button,
+	.square-button          
+			{
+			 	width: 44px; height: 41px; padding: 3px 0 0 0; text-align: center;  
+                      			background: url(../images/spec-function-button-bg.png) no-repeat;  
+                  			position: absolute; display: block;  font: 18px "Arial Black", Arial, Sans-Serif; 
+			} 
+
+	 .function-button:active, 
+	.pendingFunction       	{ 	
+				background: url(../images/function-button2-bg.png) no-repeat; 
+				background-position: bottom left; 
+			} 
+                      
+	.seven              	{ 	top: 96px; left: 15px; 		} 
+	.eight              	{ 	top: 96px; left: 66px; 		} 
+	.nine               	{ 	top: 96px; left: 118px; 		} 
+	.add               	{ 	top: 96px; left: 169px; 		} 
+	.four              	{ 	top: 147px; left: 15px; 		} 
+	.five              	{ 	top: 147px; left: 66px; 		} 
+	.six               	{ 	top: 147px; left: 118px; 	} 
+	.subtract               	{ 	top: 147px; left: 169px; 	} 
+	.one              	{ 	top: 198px; left: 15px; 		} 
+	.two            	{ 	top: 198px; left: 66px; 		} 
+	.three             	{ 	top: 198px; left: 118px; 	} 
+	.multiply           	{ 	top: 198px; left: 169px; 	} 
+	.zero            	{ 	top: 247px; left: 15px; 		} 
+	.dot            	{ 	top: 247px; left: 66px; 		} 
+	.clear           	{ 	top: 247px; left: 118px; 	}
+	.divide             	{ 	top: 247px; left: 169px; 	} 
+  	.equals-button          	{ 	
+				width: 206px; height: 42px; text-align: center; top: 303px; left: 15px; 
+                  			background: url(../images/equals-bg.png) no-repeat; position: absolute;  
+                  			display: block; 
+			}
+	.invert		{	top: 96px; left: 248px;		}
+	.sin	           	{ 	top: 147px; left: 248px; 	}
+	.cos	           	{ 	top: 198px; left: 248px; 	}
+	.tan	           	{ 	top: 247px; left: 248px; 	}
+	.ln	           	{ 	top: 303px; left: 248px; 	}
+	.memory-plus             	{ 	top: 96px; left: 300px; 		} 
+	.memory-recall           { 	top: 96px; left: 352px; 		} 
+	.left-bracket	{ 	top: 147px; left: 300px; 	}
+	.right-bracket	{ 	top: 147px; left: 352px; 	}
+	.square	           	{ 	top: 198px; left: 300px; 	}
+	.power	           	{ 	top: 198px; left: 352px; 	}
+	.exp	           	{ 	top: 247px; left: 300px; 	}
+	.pi	           	{ 	top: 247px; left: 352px; 	}
+	.mode	           	{ 	top: 303px; left: 300px; 	}
+	.delete	           	{ 	top: 303px; left: 352px; 	}
+	#graphArea	{	float:left; height: 440px;	}
+	#graphForm	{	float:right;			}
+	#tables		{	height: 440px;	}
+				padding-top: 100px		}
